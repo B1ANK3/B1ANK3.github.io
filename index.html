@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B1ANK3 Github Pages</title>
-    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <!-- Init Firebase services-->
     <script src="./js/index.js" defer></script>
+
+    <link rel="stylesheet" href="./css/index.css">
+
 </head>
+
 <body>
-    Hello World
+    <div class="counter-container">
+        <div class="counter-header">
+            Visted: <span class="counter-inline">...</span> times.
+        </div>
+    </div>
 </body>
+
 </html>

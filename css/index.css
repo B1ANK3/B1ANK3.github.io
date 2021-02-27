@@ -1,3 +1,25 @@
 body {
     background-color: #212121;
 }
+
+.counter-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    min-width: 200px;
+    min-height: 150px;
+}
+
+.counter-header {
+    color: white;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
