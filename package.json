@@ -1,0 +1,38 @@
+{
+  "name": "b1ank3.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^8.2.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "glob": "^7.1.6",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "dw": "webpack --watch --env=development",
+    "d": "webpack --env=development",
+    "pw": "webpack --watch --env=production",
+    "p": "webpack --env=production",
+    "prepare": "npm run p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B1ANK3/B1ANK3.github.io.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "B1ANK3",
+    "url": "https://github.com/B1ANK3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B1ANK3/B1ANK3.github.io/issues"
+  },
+  "homepage": "https://github.com/B1ANK3/B1ANK3.github.io#readme"
+}
